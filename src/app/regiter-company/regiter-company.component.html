@@ -1,0 +1,17 @@
+<div [class.bluecontainer]="isEnabled">
+    
+    <div class="form-group">
+        Email<input type="text" class="form-control" [(ngModel)]="u.email">
+    </div>
+    <div class="form-group">
+      ContactMobile  <input type="text" class="form-control" [(ngModel)]="u.password">
+    </div>
+     
+    <div class="form-group">
+        Password <input type="password" class="form-control" [(ngModel)]="u.contactno">
+    </div>
+    <div class="form-group">
+            <button class="form-control btn btn-success" (click)="registerHandler()">Register</button>
+            <button class="form-control btn btn-primary">Cancel</button> 
+    </div>
+</div>

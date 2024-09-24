@@ -1,0 +1,11 @@
+.stockcards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+h4{color:blue}
+.simple-linear {
+    background: linear-gradient(blue, pink);
+    color:white;
+     
+  }

@@ -1,0 +1,11 @@
+<div class="card border-5 simple-linear" style="width: 11rem;border-color: black;margin: 3px;" >
+    <div class="card-body">
+      
+       <input type="text" [(ngModel)]="s.name"/>
+       <input type="text" [(ngModel)]="s.facevalue"/>
+      <input type="text" [(ngModel)]="s.ipvalue"/>
+
+        <button class="btn btn-success" on-click="editHandler()">Save</button>
+        <button class="btn btn-warning" on-click="cancelHandler()">Canel</button>     
+      </div>
+    </div>

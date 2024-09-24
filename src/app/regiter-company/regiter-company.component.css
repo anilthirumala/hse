@@ -1,0 +1,25 @@
+.blackontainer{
+    width: 30%;
+    background-color:cadetblue;
+    color:white;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 50px;
+    border-radius: 12pt;
+    text-align: center;
+}
+.bluecontainer{
+    width: 30%;
+    background-color:aqua;
+    color:white;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 50px;
+    border-radius: 12pt;
+    text-align: center;
+}
+input{
+    background-color:beige;
+}
